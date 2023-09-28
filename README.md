@@ -1,43 +1,22 @@
-# whatsappcloudapi_wrapper 🎉
+wabotifycloudapi_wrapper 🎉
+Version Badge
+Download Badge
 
-<img src="https://img.shields.io/npm/v/whatsappcloudapi_wrapper"
-    alt="Whatsapp Cloud API"/>
+Introducing the easiest and most intuitive way for businesses and developers to leverage the power of the Whatsapp Cloud API.
 
-<img src="https://img.shields.io/npm/dw/whatsappcloudapi_wrapper"
-    alt="Whatsapp Cloud API"/>
-<br/>
-
-The <b>easiest</b>, most intuitive way for <b>businesses</b> and <b>developers</b> to start building on the <b>Whatsapp Cloud API</b>.
-
-😻 Send a free-formatted text message to a recipient
-
-🗺 Send a Geo-location message to a recipient
-
-📃 Send a document to a recipient
-
-📷 Send an image to a recipient
-
-🎞 Send a video to a recipient
-
-🔉 Send an audio to a recipient
-
-🔙 Send a list of buttons to the recipient (max number of buttons allowed are 3)
-
-🛒 Send a list of radio buttons to a recipient (max number of radio buttons allowed are 10)
-
-🤙🏾 Send a contact to a recipient
-
-🔐 Generate a QR code which can be scanned by a recipient
-
-📖 Mark a message as read
-
-🎨🖌 Parse incoming messages
-
-<img src="./static_files/379234-whatsapp-cloud-api.jpeg"
-    alt="Whatsapp Cloud API"/>
-<br/>
-
-<!-- ![npm bundle size](https://img.shields.io/bundlephobia/min/whatsappcloudapi_wrapper) -->
+Features 🚀
+😻 Send Text: Deliver free-formatted text messages to recipients.
+🗺 Share Location: Effortlessly send geo-location details.
+📃 Document Dispatch: Share a document with your audience.
+📷 Image Sharing: Send vivid images directly.
+🎞 Video Delivery: Share videos with just a click.
+🔉 Audio Messages: Convey your message through audio.
+🔙 Interactive Buttons: Send up to 3 buttons for the recipient to interact with.
+🛒 Radio Buttons: Allow choices with up to 10 radio buttons.
+🤙🏾 Contact Sharing: Share contact details seamlessly.
+🔐 QR Codes: Generate scannable QR codes.
+📖 Mark as Read: Acknowledge message reception with a read marker.
+🎨🖌 Message Parsing: Efficiently parse incoming messages.
 
 ### Frequently Asked Questions:
 
@@ -53,13 +32,13 @@ The <b>easiest</b>, most intuitive way for <b>businesses</b> and <b>developers</
 -   Using NPM:
 
 ```js
-        npm install whatsappcloudapi_wrapper
+        npm install wabotifycloudapi_wrapper
 ```
 
 -   Using Yarn:
 
 ```js
-        yarn add whatsappcloudapi_wrapper
+        yarn add wabotifycloudapi_wrapper
 ```
 
 # Usage:
@@ -67,7 +46,7 @@ The <b>easiest</b>, most intuitive way for <b>businesses</b> and <b>developers</
 -   First import the package as follows:
 
 ```js
-const WhatsappCloudAPI = require('whatsappcloudapi_wrapper');
+const WhatsappCloudAPI = require('wabotifycloudapi_wrapper');
 ```
 
 -   Then initialize the class as follows:
@@ -478,21 +457,21 @@ if (data?.isMessage) {
 
 ### Help information
 
--   If you have any questions, ask via the [GitHub Discussion forums](https://github.com/DaggieBlanqx/whatsappcloudapi_wrapper/discussions)
--   If you have any suggestions or feedback, please [open an issue](https://github.com/DaggieBlanqx/whatsappcloudapi_wrapper/issues) or [create a pull request](https://github.com/DaggieBlanqx/whatsappcloudapi_wrapper/pulls).
+-   If you have any questions, ask via the [GitHub Discussion forums](https://github.com/swahiliconnect/wabotifycloudapi_wrapper/discussions)
+-   If you have any suggestions or feedback, please [open an issue](https://github.com/swahiliconnect/wabotifycloudapi_wrapper/issues) or [create a pull request](https://github.com/swahiliconnect/wabotifycloudapi_wrapper/pulls).
 
 ### Notes:
 
 -   This package is in active development.
 -   This means new features are added regularly.
--   Incase your favorite feature is missing, you can always bump a version backwards or [create a pull request](https://github.com/DaggieBlanqx/whatsappcloudapi_wrapper/pulls) which will be reviewed and merged into [the next release](https://github.com/DaggieBlanqx/whatsappcloudapi_wrapper/releases).
+-   Incase your favorite feature is missing, you can always bump a version backwards or [create a pull request](https://github.com/swahiliconnect/wabotifycloudapi_wrapper/pulls) which will be reviewed and merged into [the next release](https://github.com/swahiliconnect/wabotifycloudapi_wrapper/releases).
 -   Thanks for your contribution.
 -   Happy coding!
 
 ### Reach out:
 
 -   Follow me on Twitter: [@daggieblanqx](https://twitter.com/daggieblanqx)
--   I am also on LinkedIn, where you can tag me to the awesome projects you've built using this package: [@daggieblanqx](https://www.linkedin.com/in/daggieblanqx/)
+-   I am also on LinkedIn, where you can tag me to the awesome projects you've built using this package: [@daggieblanqx](https://www.linkedin.com/in/isracodes/)
 -   Blog posts: [Logrocket/@Daggieblanqx](https://blog.logrocket.com/author/daggieblanqx/)
 
 ```

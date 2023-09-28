@@ -1,9 +1,9 @@
 {
-    "name": "whatsappcloudapi_wrapper",
-    "version": "1.0.13",
+    "name": "wabotifycloudapi_wrapper",
+    "version": "1.0.16",
     "description": "Tired of doing things wrong? This package provides you with an easy way to get started and start building on the Whatsapp Cloud API. This is an unofficial wrapper for the Whatsapp Cloud API.",
     "main": "index.js",
-    "author": "Daggie Blanqx",
+    "author": "Wabotify",
     "license": "MIT",
     "scripts": {
         "prettier": "prettier --ignore-path .prettierignore --config prettier.config.js --write .",
@@ -35,12 +35,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/daggieblanqx/whatsappcloudapi_wrapper.git"
+        "url": "git+https://github.com/swahiliconnect/wabotifycloudapi_wrapper.git"
     },
     "bugs": {
-        "url": "https://github.com/daggieblanqx/whatsappcloudapi_wrapper/issues"
+        "url": "https://github.com/swahiliconnect/wabotifycloudapi_wrapper/issues"
     },
-    "homepage": "https://github.com/daggieblanqx/whatsappcloudapi_wrapper#readme",
+    "homepage": "https://github.com/swahiliconnect/wabotifycloudapi_wrapper#readme",
     "engines": {
         "node": ">=10"
     }
