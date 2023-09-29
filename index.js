@@ -287,6 +287,49 @@ class WhatsappCloud {
         return response;
     }
 
+
+    async sendBulkTemplates({ templateName, languageCode, components, recipientPhones }) {
+        if (!Array.isArray(recipientPhones) || recipientPhones.length === 0) {
+            throw new Error('Recipient phone numbers are required.');
+        }
+    
+        this._mustHaveTemplateName(templateName);
+        this._mustHaveComponents(components);
+        this._mustHaveLanguageCode(languageCode);
+    
+        let bodyTemplate = {
+            "messaging_product": "whatsapp",
+            "recipient_type": "individual",
+            "type": "template",
+            "template": {
+                "name": templateName,
+                "language": {
+                    "code": languageCode
+                },
+                "components": components
+            }
+        };
+    
+        // Loop through recipient phone numbers and send messages
+        let sendPromises = recipientPhones.map(recipientPhone => {
+            this._mustHaverecipientPhone(recipientPhone);  // Validate each phone number
+            return this._fetchAssistant({
+                url: '/messages',
+                method: 'POST',
+                body: {
+                    ...bodyTemplate,
+                    "to": recipientPhone
+                }
+            });
+        });
+    
+        // Await all send operations to complete
+        let responses = await Promise.all(sendPromises);
+    
+        return responses;
+    }
+    
+
     async markMessageAsRead({ message_id }) {
         try {
             this._mustHaveMessageId(message_id);
