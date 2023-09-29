@@ -468,11 +468,6 @@ if (data?.isMessage) {
 -   Thanks for your contribution.
 -   Happy coding!
 
-### Reach out:
-
--   Follow me on Twitter: [@daggieblanqx](https://twitter.com/daggieblanqx)
--   I am also on LinkedIn, where you can tag me to the awesome projects you've built using this package: [@daggieblanqx](https://www.linkedin.com/in/isracodes/)
--   Blog posts: [Logrocket/@Daggieblanqx](https://blog.logrocket.com/author/daggieblanqx/)
 
 ```
 
